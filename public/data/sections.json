@@ -5,7 +5,7 @@
         "class":"home-section",
         "title": "Home",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nesciunt, deserunt nobis quaerat cupiditate in numquam asperiores error eius. Ut eum vel illum consectetur atque cupiditate voluptatem tempore tenetur temporibus.",
-        "imgSrc": "src/assets/imgs/home.jpeg",
+        "imgSrc": "/assets/imgs/home.jpeg",
         "imgAlt": "laundry-torrevieja"
       },
       {
@@ -13,7 +13,7 @@
         "class":"about-section",
         "title": "About",
         "content": "Descripción de la sección About.",
-        "imgSrc": "src/assets/imgs/about.jpeg",
+        "imgSrc": "/assets/imgs/about.jpeg",
         "imgAlt": "aboute-image"
       },
       {
@@ -21,7 +21,7 @@
         "class":"service-section",
         "title": "Services",
         "content": "Descripción de la sección Services.",
-        "imgSrc": "src/assets/imgs/services.jpeg",
+        "imgSrc": "/assets/imgs/services.jpeg",
         "imgAlt": "services-image"
       },
       {
@@ -29,7 +29,7 @@
         "class":"gallery-section",
         "title": "Gallery",
         "content": "Descripción de la sección Gallery.",
-        "imgSrc": "src/assets/imgs/gallery.jpeg",
+        "imgSrc": "/assets/imgs/gallery.jpeg",
         "imgAlt": "gallery-image"
       },
       {
@@ -37,7 +37,7 @@
         "class":"testimonials-section",
         "title": "Testimonials",
         "content": "Descripción de la sección Testimonials.",
-        "imgSrc": "src/assets/imgs/testimonials.jpeg",
+        "imgSrc": "/assets/imgs/testimonials.jpeg",
         "imgAlt": "testimonials-image"
       },
       {
@@ -45,7 +45,7 @@
         "class":"",
         "title": "Prices",
         "content": "Descripción de la sección Prices.",
-        "imgSrc": "src/assets/imgs/prices.jpeg",
+        "imgSrc": "/assets/imgs/prices.jpeg",
         "imgAlt": "prices-image"
       },
       {
@@ -53,7 +53,7 @@
         "class":"blog-section",
         "title": "Blog",
         "content": "Descripción de la sección Blog.",
-        "imgSrc": "src/assets/imgs/blog.jpeg",
+        "imgSrc": "/assets/imgs/blog.jpeg",
         "imgAlt": "blog-image"
       },
       {
@@ -61,7 +61,7 @@
         "class":"contact-section",
         "title": "Contact",
         "content": "Descripción de la sección Contact.",
-        "imgSrc": "src/assets/imgs/contact.jpeg",
+        "imgSrc": "/assets/imgs/contact.jpeg",
         "imgAlt": "contact-image"
       }
     ]
