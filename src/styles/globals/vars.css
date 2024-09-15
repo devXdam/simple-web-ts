@@ -1,0 +1,12 @@
+:root {
+    color-scheme: dark light;
+    font-family: "prata", sans-serif;
+    --color-text-light: #333333;
+    --color-text-dark: #f0f0f0;
+    --color-bg-light: #ffffff;
+    --color-bg-dark: #1e1e1d;
+    --color-accent-light: #b8860b; /* Dorado */
+    --color-accent-dark: #ffd700; /* Dorado más brillante */
+    --color-button-bg: #111111; /* Fondo del botón */
+    --color-button-text: #ffd700; /* Texto del botón */
+  }

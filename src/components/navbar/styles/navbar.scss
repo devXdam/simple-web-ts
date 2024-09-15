@@ -1,0 +1,37 @@
+.navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+  gap: 0.5rem;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  background-color: white; /* Ajusta según tu diseño */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.navbar li {
+  margin: 5px 0;
+}
+
+.navbar-toggle {
+  display: none; /* Oculto por defecto */
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .navbar-toggle {
+    display: block; /* Mostrar el botón de toggle */
+  }
+}
+
+.navbar.show {
+  max-height: 500px; /* Ajusta según el contenido */
+  opacity: 1;
+}

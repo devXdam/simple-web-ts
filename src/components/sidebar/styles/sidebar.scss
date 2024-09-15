@@ -1,0 +1,20 @@
+.sidebar {
+    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 2rem;
+  }
+  .sidebar li {
+    margin: 5px 0;
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none;
+      overflow-x: auto;
+    }
+    .sidebar li {
+      flex: 1;
+      text-align: center;
+    }
+  }

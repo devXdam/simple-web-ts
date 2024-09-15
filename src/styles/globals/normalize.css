@@ -1,0 +1,41 @@
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-wrap: balance;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /*Globals*/
+  body {
+    height: 100dvh;
+    background-color: var(--color-bg-light);
+    color: var(--color-text-light);
+  }
+  

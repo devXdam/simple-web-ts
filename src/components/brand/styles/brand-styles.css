@@ -1,0 +1,72 @@
+@charset "UTF-8";
+:root {
+  --gold-color: #bba164; /* Color dorado */
+  --dark-color: #1e1e1d; /* Color negro */
+  --text-font: "Prata", sans-serif; /* Fuente elegante */
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  /* Espaciado alrededor de la marca */
+}
+
+.brand-image {
+  width: 48px; /* Tamaño reducido para dispositivos móviles */
+  height: 48px; /* Tamaño reducido para dispositivos móviles */
+  /* Estilos para SVG */
+}
+.brand-image svg {
+  width: 100%; /* Asegúrate de que el SVG se ajuste al contenedor */
+  height: auto; /* Mantener la proporción del SVG */
+}
+.brand-image svg .cls-1 {
+  fill: var(--gold-color);
+}
+.brand-image svg .cls-1,
+.brand-image svg .cls-2 {
+  stroke-width: 0px;
+}
+.brand-image svg .cls-2 {
+  fill: var(--dark-color); /* Usar el color oscuro para el fondo del SVG */
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.brand-text .brand-name {
+  letter-spacing: 1px; /* Espaciado más sutil */
+  color: var(--gold-color); /* Color dorado para el texto */
+  font-weight: 700; /* Aumentar el peso de la fuente para un efecto más lujoso */
+  font-size: 1.2em; /* Tamaño de fuente reducido para dispositivos móviles */
+}
+@media (min-width: 768px) {
+  .brand-text .brand-name {
+    font-size: 1.5em; /* Aumentar el tamaño de la fuente en pantallas más grandes */
+  }
+}
+.brand-text .slogan {
+  letter-spacing: 1px; /* Espaciado más sutil */
+  color: var(--gold-color); /* Color dorado para el texto */
+  font-size: 0.5em; /* Tamaño de fuente reducido para dispositivos móviles */
+}
+@media (min-width: 768px) {
+  .brand-text .slogan {
+    font-size: 0.9em; /* Aumentar el tamaño de la fuente en pantallas más grandes */
+  }
+}
+
+/* Media Queries para responsividad */
+@media (min-width: 768px) {
+  .brand {
+    flex-direction: row; /* Cambiar a fila en pantallas más grandes */
+  }
+  .brand-image {
+    width: 64px; /* Tamaño del logo en pantallas más grandes */
+    height: 64px; /* Tamaño del logo en pantallas más grandes */
+  }
+}/*# sourceMappingURL=brand-styles.css.map */
