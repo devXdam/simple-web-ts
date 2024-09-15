@@ -27,7 +27,7 @@ document.querySelector<HTMLDivElement>('#colRight')?.appendChild(iconSidebar);
 
 // Sidebar
 const sidebar = new SidebarComponent();
-sidebar.setAttribute("data-url", "src/data/pages.json");
+sidebar.setAttribute("data-url", "/data/pages.json");
 sidebar.setAttribute("data-ul-class", "sidebar");
 document.querySelector<HTMLDivElement>('#sidebarApp')?.appendChild(sidebar);
 
